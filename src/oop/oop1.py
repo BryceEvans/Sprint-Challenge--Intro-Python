@@ -18,4 +18,20 @@
 #
 # Put a comment noting which class is the base class
 
+# Bass Class
+class Vehicle:
+    pass
+
+# Vehicle --> FlightVehicle
+class flightVehicle(Vehicle):
+    pass
+
+# Vehicle --> flightVehicle --> Ariplane
+class Airplaine(FlightVehicle):
+    pass
+
+# Vehicle --> flightVehicle --> Starship
+class Starship(FlightVehicle):
+    pass
+
 
