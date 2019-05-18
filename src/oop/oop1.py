@@ -35,3 +35,16 @@ class Starship(FlightVehicle):
     pass
 
 
+# Vehicle --> GroundVehicle
+class GroundVehcile(Vehicle):
+    pass
+
+# Vehicle --> GroundVehicle --> Car
+class Car(GroundVehicle):
+    pass
+
+# Vehicle --> GroundVehicle --> Motorcyle
+class Motorcycle(GroundVehicle):
+    pass
+
+
