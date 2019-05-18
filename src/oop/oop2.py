@@ -39,4 +39,4 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
-print([ vehicle.drive for vehicle in vehicles ])
+print([ vehicle.drive() for vehicle in vehicles ])
