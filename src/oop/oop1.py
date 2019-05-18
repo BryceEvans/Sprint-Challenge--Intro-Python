@@ -23,11 +23,11 @@ class Vehicle:
     pass
 
 # Vehicle --> FlightVehicle
-class flightVehicle(Vehicle):
+class FlightVehicle(Vehicle):
     pass
 
 # Vehicle --> flightVehicle --> Ariplane
-class Airplaine(FlightVehicle):
+class Airplane(FlightVehicle):
     pass
 
 # Vehicle --> flightVehicle --> Starship
@@ -36,7 +36,7 @@ class Starship(FlightVehicle):
 
 
 # Vehicle --> GroundVehicle
-class GroundVehcile(Vehicle):
+class GroundVehicle(Vehicle):
     pass
 
 # Vehicle --> GroundVehicle --> Car
